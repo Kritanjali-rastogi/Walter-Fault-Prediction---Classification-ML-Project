@@ -15,7 +15,7 @@ def get_requirements(file_path:str)-> List[str]:
         return requirements
     
 setup(
-    name= 'Walter Fault Detection',
+    name= 'Heart Disease Prediction',
     version= '0.0.1',
     author= 'Kritanjali Singh Rastogi',
     author_email= 'kritanjali03@gmail.com',
