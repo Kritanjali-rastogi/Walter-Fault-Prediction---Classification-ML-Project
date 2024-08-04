@@ -49,7 +49,3 @@ class data_ingestion:
             logging.info("Error occured in data ingestion")
             raise CustomException(e,sys)
         
-if __name__=='__main__':
-    ingestion_obj = data_ingestion()
-    train_data_path, test_data_path = ingestion_obj.initiate_data_ingestion()
-    print(train_data_path, test_data_path)
